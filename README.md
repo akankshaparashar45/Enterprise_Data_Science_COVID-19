@@ -1,17 +1,26 @@
-# Enterprise_Data_Science_COVID-19_First_Draft
-- Applied data science on COVID -19 data
-- This repository contains one python notebook i.e. "Infected_and_Vaccinated_Population_Data.ipynb".
+# Enterprise_Data_Science_COVID-19_Project_2022
+- Applied data science on COVID-19 data.
 # Data source:
-- COVID infected population dataset
-<br/>https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv
-- Vaccinated population (overall doses) dataset: Used for extracting total population of different countries
-<br/>https://github.com/govex/COVID-19/blob/master/data_tables/vaccine_data/global_data/time_series_covid19_vaccine_global.csv
-- Vaccinated population ( partially and fully) dataset
-<br/>https://github.com/govex/COVID-19/blob/master/data_tables/vaccine_data/global_data/time_series_covid19_vaccine_doses_admin_global.csv
-# Results of the python notebook:
-- Percentage of CoVID infected people over time
-![image](https://user-images.githubusercontent.com/105463756/175997686-801ca17a-dfda-470c-b094-54fac6c149e2.png)
-- Percentage of partially vaccinated people against COVID over time
-![image](https://user-images.githubusercontent.com/105463756/175998293-1c435199-15a0-4f06-88a8-b7c02f555c85.png)
-- Percentage of fully vaccinated people against COVID over time
-![image](https://user-images.githubusercontent.com/105463756/175998513-01b3206d-e0be-4e6e-9815-84648cd3ef2d.png)
+- COVID-19 data
+<br/>https://github.com/CSSEGISandData/COVID-19
+# Project organisation:
+![image](https://user-images.githubusercontent.com/105463756/181131981-16b85ed8-d8fc-4b5f-9c5d-237329a095bb.png)
+# Results of the project:
+- Dynamic dashboard of 'Full Walk Trough'
+  * Different countries can be compared on the basis of following data:
+    * Timeline Confirmed
+    * Timeline Confirmed Filtered
+    * Timeline Doubling Rate
+    * Timeline Doubling Rate Filtered
+   * Example of Germany is depicted in the figure as follows:
+-![image](https://user-images.githubusercontent.com/105463756/181129894-d508060d-012c-4901-81b2-bb725702d31c.png)
+- SIR curve of Germany
+![image](https://user-images.githubusercontent.com/105463756/181129268-813fe94e-de62-421b-927f-4cb1ce2e1189.png)
+- Fit curve of Germany
+![image](https://user-images.githubusercontent.com/105463756/181129647-c3640d76-9174-4ff0-b6fa-9ddab000610f.png)
+- Dynamic dashboard to see fit of different countries
+  * Example of Germany infected along with fitted population is shown in the figure as follows: 
+![image](https://user-images.githubusercontent.com/105463756/181130097-e0475046-ec0f-413d-9093-6ddf2d213c27.png)
+
+
+
