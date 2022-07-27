@@ -1,26 +1,57 @@
-# Enterprise_Data_Science_COVID-19_Project_2022
-- Applied data science on COVID-19 data.
-# Data source:
-- COVID-19 data
-<br/>https://github.com/CSSEGISandData/COVID-19
-# Project organisation:
-![image](https://user-images.githubusercontent.com/105463756/181131981-16b85ed8-d8fc-4b5f-9c5d-237329a095bb.png)
-# Results of the project:
-- Dynamic dashboard of 'Full Walk Trough'
-  * Different countries can be compared on the basis of following data:
-    * Timeline Confirmed
-    * Timeline Confirmed Filtered
-    * Timeline Doubling Rate
-    * Timeline Doubling Rate Filtered
-   * Example of Germany is depicted in the figure as follows:
--![image](https://user-images.githubusercontent.com/105463756/181129894-d508060d-012c-4901-81b2-bb725702d31c.png)
-- SIR curve of Germany
-![image](https://user-images.githubusercontent.com/105463756/181129268-813fe94e-de62-421b-927f-4cb1ce2e1189.png)
-- Fit curve of Germany
-![image](https://user-images.githubusercontent.com/105463756/181129647-c3640d76-9174-4ff0-b6fa-9ddab000610f.png)
-- Dynamic dashboard to see fit of different countries
-  * Example of Germany infected along with fitted population is shown in the figure as follows: 
-![image](https://user-images.githubusercontent.com/105463756/181130097-e0475046-ec0f-413d-9093-6ddf2d213c27.png)
+ADS_COVID_19
+==============================
+
+Applied Data Science on COVID-19 data
+
+Project Organization
+------------
+
+    ├── LICENSE
+    ├── Makefile           <- Makefile with commands like `make data` or `make train`
+    ├── README.md          <- The top-level README for developers using this project.
+    ├── data
+    │   ├── external       <- Data from third party sources.
+    │   ├── interim        <- Intermediate data that has been transformed.
+    │   ├── processed      <- The final, canonical data sets for modeling.
+    │   └── raw            <- The original, immutable data dump.
+    │
+    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    │
+    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    │
+    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+    │                         the creator's initials, and a short `-` delimited description, e.g.
+    │                         `1.0-jqp-initial-data-exploration`.
+    │
+    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    │
+    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+    │   └── figures        <- Generated graphics and figures to be used in reporting
+    │
+    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
+    │                         generated with `pip freeze > requirements.txt`
+    │
+    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
+    ├── src                <- Source code for use in this project.
+    │   ├── __init__.py    <- Makes src a Python module
+    │   │
+    │   ├── data           <- Scripts to download or generate data
+    │   │   └── make_dataset.py
+    │   │
+    │   ├── features       <- Scripts to turn raw data into features for modeling
+    │   │   └── build_features.py
+    │   │
+    │   ├── models         <- Scripts to train models and then use trained models to make
+    │   │   │                 predictions
+    │   │   ├── predict_model.py
+    │   │   └── train_model.py
+    │   │
+    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+    │       └── visualize.py
+    │
+    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
 
+--------
 
+<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
